@@ -1,0 +1,153 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.arriba{
+    background-color: black;
+    padding: 10px;
+    overflow: hidden; 
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.arriba .logo{
+    text-align: center;
+}
+
+.arriba .lista{
+    display:flex;
+    text-decoration: none;
+}
+
+.arriba a{
+    color: white;
+    text-align: right;
+    padding: 12px;
+    text-decoration: none; 
+    font-size: 14px;
+}
+
+.arriba a:hover{
+    background-color: #5C5C5C;
+}
+
+.logo{
+    height: 28px;
+    margin-top: 6px;
+}
+
+.principal{
+    background-color: #46AAF5;
+    padding: 40px; 
+    background-image: url("./images/chica_bailando.png"); 
+    background-size: 350px;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 50%;
+}
+
+.título{
+    color: white; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+
+}
+
+.subtítulo{
+    color: white; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+
+.botón{
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #37B725;
+    color: white; 
+    font-weight: bold; /*Poner en negrita*/
+    text-decoration: none; /*Quita el subrayado del enlace*/
+    border-radius: 50px;
+}
+
+.condiciones{
+    color: white;
+}
+
+.premium{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.titular{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    padding-top: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.images{
+    max-width: 150px;
+    max-height:150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.descarga{
+    font-size: 20px;
+}
+
+.sub{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.anuncios{
+    font-size: 20px; 
+}
+
+.escucha{
+    font-size: 20px; 
+}
+
+.salta{
+    font-size: 20px; 
+}
+
+.pie{
+    color: #A9A6A8;
+    background-color: black;
+    text-align: left;
+    padding: 12px;
+    text-decoration: none; 
+    font-size: 14px;
+}
+
+.orden{
+    display:flex;
+    text-decoration: none;
+}
+
+.number{
+    text-align: right;
+    color: #A9A6A8;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
